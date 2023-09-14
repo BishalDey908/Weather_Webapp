@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch || WeatherX</title>
+    <link rel="icon" href="favicon.ico" type="favicon/ico">
+    <link rel="stylesheet" href="sbout.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>WeatherX</h1>
+        <a href="../index.html">
+            <p>/home</p>
+        </a>
+    </div>
+    <div class="container">
+
+        <form action="https://formspree.io/f/xbjvdayw"
+        method="POST">
+            <h1 class="heading">Get In Touch </h1>
+            <div class="first">
+                <div class="firstname">
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="firstname" required autocomplete="off">
+                </div>
+                <div class="lastname">
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lastname" required autocomplete="off">
+                </div>
+            </div>
+            <div class="second">
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="off" name="email" required>
+            </div>
+            <div class="phone">
+                <label for="phoneno">Phone no.</label>
+                <input type="text" autocomplete="off" name="phone_no" required>
+            </div>
+            </div>
+            <div class="inputtext">
+                <label for="text">Message</label>
+                <textarea rows="10" cols="100" minlength="5" name="inputtext" required></textarea>
+            </div>
+            <div class="butt">
+            <button type="submit" class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
